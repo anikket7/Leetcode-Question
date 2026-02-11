@@ -5,7 +5,7 @@ public:
         int minsum = 0;
         for (int x : nums) {
             sum += x;
-            minsum = min(sum, minsum);
+            minsum = min(sum,minsum);
         }
         return 1 - minsum;
     }
